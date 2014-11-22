@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="60" failures="60" name="TestSuite" time="11.051" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin"/>
+    <property name="java.vm.version" value="25.5-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="I:\Mural-UFG-master\src\central"/>
+    <property name="java.runtime.version" value="1.8.0_05-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Iasmim\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans 8.0\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans 8.0\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Embarcadero\Studio\14.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl;C:\Program Files\Embarcadero\Studio\14.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\14.0\Bpl\Win64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Iasmim"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Iasmim"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans 8.0\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans 8.0\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_05"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_05\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans 8.0\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.ExecutaDivulgacaoNGTest" name="testExecutarDivulgacao" time="0.03">
+    <failure message="O caso de teste é um protótipo." type="java.lang.AssertionError">java.lang.AssertionError: O caso de teste é um protótipo.
+	at org.testng.Assert.fail(Assert.java:94)
+	at br.ufg.inf.fabrica.mural.central.dominio.ExecutaDivulgacaoNGTest.testExecutarDivulgacao(ExecutaDivulgacaoNGTest.java:51)
+</failure>
+    <system-out>executarDivulgacao
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testAgendarNotificacao" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testAgendarNotificacao(NotificacaoNGTest.java:257)
+</failure>
+    <system-out>agendarNotificacao
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testDesabilitarNotificacoesDirigidas" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testDesabilitarNotificacoesDirigidas(NotificacaoNGTest.java:241)
+</failure>
+    <system-out>desabilitarNotificacoesDirigidas
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetIdDispositivo" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetIdDispositivo(NotificacaoNGTest.java:133)
+</failure>
+    <system-out>getIdDispositivo
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetIdUsuario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetIdUsuario(NotificacaoNGTest.java:187)
+</failure>
+    <system-out>getIdUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetLogin" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetLogin(NotificacaoNGTest.java:160)
+</failure>
+    <system-out>getLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetMensagem" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetMensagem(NotificacaoNGTest.java:79)
+</failure>
+    <system-out>getMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetSenha" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetSenha(NotificacaoNGTest.java:106)
+</failure>
+    <system-out>getSenha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetTimer" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetTimer(NotificacaoNGTest.java:52)
+</failure>
+    <system-out>getTimer
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testGetUsuario" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testGetUsuario(NotificacaoNGTest.java:214)
+</failure>
+    <system-out>getUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testObterDispositivos" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testObterDispositivos(NotificacaoNGTest.java:284)
+</failure>
+    <system-out>obterDispositivos
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testRegistrarComFalha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testRegistrarComFalha(NotificacaoNGTest.java:271)
+</failure>
+    <system-out>registrarComFalha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetIdDispositivo" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetIdDispositivo(NotificacaoNGTest.java:147)
+</failure>
+    <system-out>setIdDispositivo
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetIdUsuario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetIdUsuario(NotificacaoNGTest.java:201)
+</failure>
+    <system-out>setIdUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetLogin" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetLogin(NotificacaoNGTest.java:174)
+</failure>
+    <system-out>setLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetMensagem" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetMensagem(NotificacaoNGTest.java:93)
+</failure>
+    <system-out>setMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetSenha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetSenha(NotificacaoNGTest.java:120)
+</failure>
+    <system-out>setSenha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetTimer" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetTimer(NotificacaoNGTest.java:66)
+</failure>
+    <system-out>setTimer
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest" name="testSetUsuario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest.testSetUsuario(NotificacaoNGTest.java:228)
+</failure>
+    <system-out>setUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testGetId" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testGetId(PapelDeUsuarioNGTest.java:50)
+</failure>
+    <system-out>getId
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testGetNome" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testGetNome(PapelDeUsuarioNGTest.java:77)
+</failure>
+    <system-out>getNome
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testObterGrupos" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testObterGrupos(PapelDeUsuarioNGTest.java:103)
+</failure>
+    <system-out>obterGrupos
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testObterPapeisUsuario" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testObterPapeisUsuario(PapelDeUsuarioNGTest.java:131)
+</failure>
+    <system-out>obterPapeisUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testPapelDeUsuario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testPapelDeUsuario(PapelDeUsuarioNGTest.java:117)
+</failure>
+    <system-out>papelDeUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testSetId" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testSetId(PapelDeUsuarioNGTest.java:64)
+</failure>
+    <system-out>setId
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest" name="testSetNome" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest.testSetNome(PapelDeUsuarioNGTest.java:91)
+</failure>
+    <system-out>setNome
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testExecutarSolicitacao" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testExecutarSolicitacao(SolicitacaoOuvidoriaNGTest.java:332)
+</failure>
+    <system-out>executarSolicitacao
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetGrupoDestinatario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetGrupoDestinatario(SolicitacaoOuvidoriaNGTest.java:239)
+</failure>
+    <system-out>getGrupoDestinatario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetIdDispositivo" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetIdDispositivo(SolicitacaoOuvidoriaNGTest.java:158)
+</failure>
+    <system-out>getIdDispositivo
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetIdMensagem" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetIdMensagem(SolicitacaoOuvidoriaNGTest.java:50)
+</failure>
+    <system-out>getIdMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetIdUsuario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetIdUsuario(SolicitacaoOuvidoriaNGTest.java:185)
+</failure>
+    <system-out>getIdUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetListaGrupoDestinatario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetListaGrupoDestinatario(SolicitacaoOuvidoriaNGTest.java:212)
+</failure>
+    <system-out>getListaGrupoDestinatario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetListaGrupoUsuarios" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetListaGrupoUsuarios(SolicitacaoOuvidoriaNGTest.java:266)
+</failure>
+    <system-out>getListaGrupoUsuarios
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetLogin" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetLogin(SolicitacaoOuvidoriaNGTest.java:104)
+</failure>
+    <system-out>getLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetMensagem" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetMensagem(SolicitacaoOuvidoriaNGTest.java:77)
+</failure>
+    <system-out>getMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetSenha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetSenha(SolicitacaoOuvidoriaNGTest.java:131)
+</failure>
+    <system-out>getSenha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testGetUser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testGetUser(SolicitacaoOuvidoriaNGTest.java:293)
+</failure>
+    <system-out>getUser
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetGrupoDestinatario" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetGrupoDestinatario(SolicitacaoOuvidoriaNGTest.java:253)
+</failure>
+    <system-out>setGrupoDestinatario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetIdDispositivo" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetIdDispositivo(SolicitacaoOuvidoriaNGTest.java:172)
+</failure>
+    <system-out>setIdDispositivo
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetIdMensagem" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetIdMensagem(SolicitacaoOuvidoriaNGTest.java:64)
+</failure>
+    <system-out>setIdMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetIdUsuario" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetIdUsuario(SolicitacaoOuvidoriaNGTest.java:199)
+</failure>
+    <system-out>setIdUsuario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetListaGrupoDestinatario" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetListaGrupoDestinatario(SolicitacaoOuvidoriaNGTest.java:226)
+</failure>
+    <system-out>setListaGrupoDestinatario
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetListaGrupoUsuarios" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetListaGrupoUsuarios(SolicitacaoOuvidoriaNGTest.java:280)
+</failure>
+    <system-out>setListaGrupoUsuarios
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetLogin" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetLogin(SolicitacaoOuvidoriaNGTest.java:118)
+</failure>
+    <system-out>setLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetMensagem" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetMensagem(SolicitacaoOuvidoriaNGTest.java:91)
+</failure>
+    <system-out>setMensagem
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetSenha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetSenha(SolicitacaoOuvidoriaNGTest.java:145)
+</failure>
+    <system-out>setSenha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSetUser" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSetUser(SolicitacaoOuvidoriaNGTest.java:307)
+</failure>
+    <system-out>setUser
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testSolicitacaoOuvidoria" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testSolicitacaoOuvidoria(SolicitacaoOuvidoriaNGTest.java:320)
+</failure>
+    <system-out>SolicitacaoOuvidoria
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest" name="testValidarInformacao" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest.testValidarInformacao(SolicitacaoOuvidoriaNGTest.java:346)
+</failure>
+    <system-out>validarInformacao
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testGetId" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testGetId(UsuarioNGTest.java:50)
+</failure>
+    <system-out>getId
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testGetLogin" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testGetLogin(UsuarioNGTest.java:77)
+</failure>
+    <system-out>getLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testGetSenha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testGetSenha(UsuarioNGTest.java:104)
+</failure>
+    <system-out>getSenha
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testIsAdministrador" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testIsAdministrador(UsuarioNGTest.java:158)
+</failure>
+    <system-out>isAdministrador
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testIsApenasProdutor" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testIsApenasProdutor(UsuarioNGTest.java:131)
+</failure>
+    <system-out>isApenasProdutor
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testObterUsuariosGrupo" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testObterUsuariosGrupo(UsuarioNGTest.java:186)
+</failure>
+    <system-out>obterUsuariosGrupo
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testSetAdministrador" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testSetAdministrador(UsuarioNGTest.java:172)
+</failure>
+    <system-out>setAdministrador
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testSetApenasProdutor" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testSetApenasProdutor(UsuarioNGTest.java:145)
+</failure>
+    <system-out>setApenasProdutor
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testSetId" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testSetId(UsuarioNGTest.java:64)
+</failure>
+    <system-out>setId
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testSetLogin" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testSetLogin(UsuarioNGTest.java:91)
+</failure>
+    <system-out>setLogin
+</system-out>
+  </testcase>
+  <testcase classname="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest" name="testSetSenha" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest.testSetSenha(UsuarioNGTest.java:118)
+</failure>
+    <system-out>setSenha
+</system-out>
+  </testcase>
+</testsuite>

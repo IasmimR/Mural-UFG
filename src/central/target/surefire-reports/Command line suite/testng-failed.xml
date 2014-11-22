@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest">
+        <methods>
+          <include name="testSetIdUsuario"/>
+          <include name="testSetSenha"/>
+          <include name="tearDownClass"/>
+          <include name="testSetListaGrupoDestinatario"/>
+          <include name="testGetGrupoDestinatario"/>
+          <include name="testValidarInformacao"/>
+          <include name="testSetIdMensagem"/>
+          <include name="testGetMensagem"/>
+          <include name="testGetUser"/>
+          <include name="testSetMensagem"/>
+          <include name="testExecutarSolicitacao"/>
+          <include name="testSetListaGrupoUsuarios"/>
+          <include name="testGetListaGrupoDestinatario"/>
+          <include name="testGetSenha"/>
+          <include name="testSetGrupoDestinatario"/>
+          <include name="testSetUser"/>
+          <include name="tearDownMethod"/>
+          <include name="testGetListaGrupoUsuarios"/>
+          <include name="testGetLogin"/>
+          <include name="testGetIdDispositivo"/>
+          <include name="testGetIdUsuario"/>
+          <include name="testSetLogin"/>
+          <include name="setUpMethod"/>
+          <include name="testSetIdDispositivo"/>
+          <include name="setUpClass"/>
+          <include name="testGetIdMensagem"/>
+          <include name="testSolicitacaoOuvidoria"/>
+        </methods>
+      </class> <!-- br.ufg.inf.fabrica.mural.central.dominio.SolicitacaoOuvidoriaNGTest -->
+      <class name="br.ufg.inf.fabrica.mural.central.dominio.ExecutaDivulgacaoNGTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="testExecutarDivulgacao"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- br.ufg.inf.fabrica.mural.central.dominio.ExecutaDivulgacaoNGTest -->
+      <class name="br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="tearDownMethod"/>
+          <include name="setUpMethod"/>
+          <include name="setUpClass"/>
+          <include name="testGetSenha"/>
+          <include name="testSetAdministrador"/>
+          <include name="testSetSenha"/>
+          <include name="testIsAdministrador"/>
+          <include name="testSetApenasProdutor"/>
+          <include name="testSetLogin"/>
+          <include name="testIsApenasProdutor"/>
+          <include name="testGetId"/>
+          <include name="testGetLogin"/>
+          <include name="testSetId"/>
+          <include name="testObterUsuariosGrupo"/>
+        </methods>
+      </class> <!-- br.ufg.inf.fabrica.mural.central.dominio.UsuarioNGTest -->
+      <class name="br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest">
+        <methods>
+          <include name="testSetSenha"/>
+          <include name="testSetTimer"/>
+          <include name="testGetSenha"/>
+          <include name="testGetTimer"/>
+          <include name="setUpClass"/>
+          <include name="testAgendarNotificacao"/>
+          <include name="tearDownMethod"/>
+          <include name="testRegistrarComFalha"/>
+          <include name="testSetMensagem"/>
+          <include name="testGetIdDispositivo"/>
+          <include name="testObterDispositivos"/>
+          <include name="testSetIdUsuario"/>
+          <include name="tearDownClass"/>
+          <include name="testGetMensagem"/>
+          <include name="testGetUsuario"/>
+          <include name="testGetLogin"/>
+          <include name="testDesabilitarNotificacoesDirigidas"/>
+          <include name="testSetLogin"/>
+          <include name="testSetUsuario"/>
+          <include name="testSetIdDispositivo"/>
+          <include name="testGetIdUsuario"/>
+          <include name="setUpMethod"/>
+        </methods>
+      </class> <!-- br.ufg.inf.fabrica.mural.central.dominio.NotificacaoNGTest -->
+      <class name="br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testSetId"/>
+          <include name="setUpClass"/>
+          <include name="testObterPapeisUsuario"/>
+          <include name="testGetId"/>
+          <include name="testGetNome"/>
+          <include name="setUpMethod"/>
+          <include name="testPapelDeUsuario"/>
+          <include name="testSetNome"/>
+          <include name="testObterGrupos"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- br.ufg.inf.fabrica.mural.central.dominio.PapelDeUsuarioNGTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
