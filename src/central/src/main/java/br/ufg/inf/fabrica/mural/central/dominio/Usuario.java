@@ -3,23 +3,41 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package br.ufg.inf.fabrica.mural.central.dominio;
+
+
+import java.io.Serializable;
 import java.util.ArrayList;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+/**
+ *
+ * @author Ulrich
+ */
 
-public class Usuario {
+@Entity
+@Table(name = "usuario", schema = "")
+public class Usuario implements Serializable {
 	
+	@Id
+	@Column(name = "id")
 	private long id;
 	private String login;
 	private String senha;
 	private boolean apenasProdutor;
 	private boolean administrador;
+	private ArrayList<Papel> papel;
 
-    public Usuario(long id, String login, String senha) {
-        this.id = id;
-        this.login = login;
-        this.senha = senha;
+    public Usuario() {
     }
+	
+	public Usuario(long id) {
+		this.id = id;
+	}
 
     public long getId() {
         return id;
@@ -60,11 +78,6 @@ public class Usuario {
     public void setAdministrador(boolean administrador) {
         this.administrador = administrador;
     }
-	        
-  
-    public ArrayList<String> obterUsuariosGrupo(String grupoDestinatario) {
-        return null; //Não implementado - considerado fora do escopo	
-    }
-	
-
+        
+        
 }

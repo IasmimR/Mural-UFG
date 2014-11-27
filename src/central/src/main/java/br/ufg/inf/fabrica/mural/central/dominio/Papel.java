@@ -7,19 +7,24 @@
 package br.ufg.inf.fabrica.mural.central.dominio;
 
 import java.io.Serializable;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 /**
  *
- * @author Ulrich
+ * @author alunoinf
  */
-public class PapelDeUsuario implements Serializable {
-	
-	long id;
-	String nome;
-	
-	public PapelDeUsuario(Usuario usuario) {
-		
-	}
+
+@Entity
+@Table(name = "papel", schema = "")
+public class Papel implements Serializable{
+    
+    @Id
+    @Column(name = "id")
+    long id;
+    String nome;
 
     public long getId() {
         return id;
@@ -36,6 +41,6 @@ public class PapelDeUsuario implements Serializable {
     public void setNome(String nome) {
         this.nome = nome;
     }
-        
-        
+    
+    
 }
